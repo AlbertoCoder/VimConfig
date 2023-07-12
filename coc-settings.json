@@ -1,0 +1,11 @@
+
+{
+"languageserver": {
+  "clangd": {
+    "command": "/usr/bin/clangd-13",
+    "rootPatterns": ["compile_commands.json", ".vim/", ".git/", ".hg/"],
+    "filetypes": ["c", "cpp", "objc", "objcpp"]
+  }
+}
+}
+
